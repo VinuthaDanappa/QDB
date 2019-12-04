@@ -131,6 +131,15 @@
   <build>
     <plugins>
       <plugin>
+    			<groupId>external.atlassian.jgitflow</groupId>
+    			<artifactId>jgitflow-maven-plugin</artifactId>
+    			<version>1.0-m5.1</version>
+    		<configuration>
+        		<username>Kamesh</username>
+        		<password>ustglobal@123</password>
+    		</configuration>
+	  </plugin>
+      <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
         <executions>
